@@ -1,0 +1,40 @@
+{
+  "name": "babel-preset-minarai",
+  "version": "1.0.0",
+  "description": "A babel preset for transforming your JavaScript for Minarai",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nextremer/babel-preset-minarai.git"
+  },
+  "keywords": [
+    "babel",
+    "es6",
+    "es2015",
+    "javascript"
+  ],
+  "author": "k.tada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nextremer/babel-preset-minarai/issues"
+  },
+  "homepage": "https://github.com/Nextremer/babel-preset-minarai#readme",
+  "dependencies": {
+    "babel-plugin-import-glob": "^2.0.0",
+    "babel-plugin-root-import": "^5.1.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  }
+}
