@@ -2,10 +2,10 @@
 
 module.exports = {
   presets: [
-    require('babel-preset-env').default(null, {
+    [require('babel-preset-env'), {
       targets: { browsers: ['last 2 versions'] },
       modules: false
-    }),
+    }],
     require('babel-preset-react'),
     require('babel-preset-stage-0')
   ],
